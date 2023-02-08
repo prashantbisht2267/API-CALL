@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+*{
+   
+ background-image: url("https://img.freepik.com/free-photo/flat-lay-popcorn-cinema-concept_23-2148191709.jpg?w=1800&t=st=1675774682~exp=1675775282~hmac=ac38f458f3161ef1d2cc96e803386472be633dfe332337f32bc949e428b174fb");
+background-repeat: no-repeat;
+background-size: cover;
+/* margin: 0px 0px;
+padding: 0px 0px;
+height: 100vh; */
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin: 61px 9px;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.c1{
+    margin: 5px 16px;
+    
+}
+.holly{
+    text-align: center;
+    color: red;
+    text-transform: capitalize;
+    color: white;
+  text-shadow: 2px 2px 4px #000000;
+    font-size: 70px;
+    border-bottom: #000000;
+    
+
+}
+.tt{
+    height: 30px;
+    width:350px;
+    color:black;
+    border-radius: 10px;
+    border-color: darkred;
+    font-size: 20px;
+    margin: 0px 10px;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: green;
+    font-size: 20px;
+    
+
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ 
+  
